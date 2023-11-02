@@ -18,7 +18,7 @@ src:url(Montserrat-Regular.ttf);
 body{
     font-family: Montserrat;
     background-size: cover;
-    height: calc(115vh - 80px);
+    height: calc(108vh - 80px);
     background: linear-gradient(45deg, #fc03be, #03b1fc);
 }
 
@@ -243,23 +243,12 @@ footer {
 #sek::after {
     content: 'Sekunda';
 }
-video {
-    display:block;
-    margin: 1em auto;
-    width: 100%;
-    max-width: 800px;
-    max-height: 500px;
-    position: relative;
-    border-radius: 20px;
-    top: 25%;
-    z-index: -1;
-}
 
 @media (max-width: 1000px){
     .container {
         width: 300px;
-        height: 170px;
-        position: relative;
+        height: 130px;
+        position: fixed;
         top:30%;
         left:50%;
         transform: translate(-50%, -50%);
@@ -278,7 +267,7 @@ video {
     .container::before{
         content: '';
         width: 280px;
-        height: 170px;
+        height: 130px;
         background: #8eb8fa;
         border-radius: 5px;
         position: fixed;
@@ -289,7 +278,7 @@ video {
     .container::after{
         content: '';
         width: 100px;
-        height: 100px;
+        height: 130px;
         background: #419aff;
         border-radius: 10px;
         position: fixed;
@@ -321,15 +310,17 @@ video {
     #sek::after {
         content: 'Sekunda';
     }
-    video {
-        display:block;
-        margin: 1em auto;
-        width: 100%;
-        max-width: 320px;
-        max-height: 250px;
-        position: relative;
-        border-radius: 20px;
-        top: 25%;
-        z-index: -1;
-    }
+}
+video {
+    display:block;
+    margin: 1em auto;
+    width: 100%;
+    max-width: 800px;
+    max-height: 500px;
+    min-width: 320px;
+    min-height: 300px;
+    position: relative;
+    border-radius: 20px;
+    top: 230px;
+    z-index: -1;
 }
