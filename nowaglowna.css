@@ -18,7 +18,7 @@ src:url(Montserrat-Regular.ttf);
 body{
     font-family: Montserrat;
     background-size: cover;
-    height: calc(108vh - 80px);
+    height: calc(106vh - 80px);
     background: linear-gradient(45deg, #fc03be, #03b1fc);
 }
 
@@ -321,13 +321,13 @@ footer {
 video {
     display:block;
     margin: 1em auto;
-    width: 100%;
     max-width: 800px;
-    max-height: 500px;
-    min-width: 320px;
+    max-height: 480px;
+    min-width: 400px;
     min-height: 300px;
     position: relative;
     border-radius: 20px;
     top: 205px;
     z-index: -1;
+    width: 90%;
 }
