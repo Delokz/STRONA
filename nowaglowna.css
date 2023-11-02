@@ -131,6 +131,13 @@ footer {
         float:inline-end;
         margin-top: 1%;
     }
+    .autorzy {
+        margin: 10px 0;
+        text-align: center;
+        font-size:10px;
+        line-height:10px;
+        font-weight: bold;
+    }
 }
 .stopka {
     width:100%;
@@ -160,7 +167,7 @@ footer {
     margin: 10px 0;
     text-align: center;
     font-size:15px;
-    line-height:20px;
+    line-height:10px;
     font-weight: bold;
 }
 /* Team */
@@ -321,6 +328,6 @@ video {
     min-height: 300px;
     position: relative;
     border-radius: 20px;
-    top: 230px;
+    top: 150px;
     z-index: -1;
 }
