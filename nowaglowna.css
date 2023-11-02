@@ -18,7 +18,7 @@ src:url(Montserrat-Regular.ttf);
 body{
     font-family: Montserrat;
     background-size: cover;
-    height: calc(108vh - 80px);
+    height: calc(115vh - 80px);
     background: linear-gradient(45deg, #fc03be, #03b1fc);
 }
 
@@ -259,7 +259,7 @@ video {
     .container {
         width: 300px;
         height: 170px;
-        position: fixed;
+        position: relative;
         top:30%;
         left:50%;
         transform: translate(-50%, -50%);
@@ -329,7 +329,7 @@ video {
         max-height: 250px;
         position: relative;
         border-radius: 20px;
-        top: 10%;
+        top: 25%;
         z-index: -1;
     }
 }
