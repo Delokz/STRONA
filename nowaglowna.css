@@ -318,16 +318,3 @@ footer {
         content: 'Sekunda';
     }
 }
-video {
-    display:block;
-    margin: 1em auto;
-    max-width: 800px;
-    max-height: 480px;
-    min-width: 400px;
-    min-height: 300px;
-    position: relative;
-    border-radius: 20px;
-    top: 205px;
-    z-index: -1;
-    width: 90%;
-}
