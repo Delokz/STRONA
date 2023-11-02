@@ -254,9 +254,9 @@ footer {
 @media (max-width: 1000px){
     .container {
         width: 300px;
-        height: 130px;
+        height: 110px;
         position: fixed;
-        top:30%;
+        top:25%;
         left:50%;
         transform: translate(-50%, -50%);
         z-index: -2;
@@ -274,7 +274,7 @@ footer {
     .container::before{
         content: '';
         width: 280px;
-        height: 130px;
+        height: 110px;
         background: #8eb8fa;
         border-radius: 5px;
         position: fixed;
@@ -285,7 +285,7 @@ footer {
     .container::after{
         content: '';
         width: 100px;
-        height: 130px;
+        height: 110px;
         background: #419aff;
         border-radius: 10px;
         position: fixed;
@@ -328,6 +328,6 @@ video {
     min-height: 300px;
     position: relative;
     border-radius: 20px;
-    top: 150px;
+    top: 170px;
     z-index: -1;
 }
