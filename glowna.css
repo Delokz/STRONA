@@ -123,16 +123,6 @@ footer {
     float: inline-end;
     margin-top: 1%;
 }
-@media (max-width: 952px) {
-    footer {
-        position: fixed;
-        bottom: 0px;
-        width: 100%;
-        background: #292a2b;
-        float: inline-end;
-        margin-top: 1%;
-    }
-}
 .stopka {
     width:100%;
     padding: 5px 5px 5px;
