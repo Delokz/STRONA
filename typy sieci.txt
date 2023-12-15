@@ -1,0 +1,31 @@
+Temat: sieci bezprzewodowe rodzaje i standardy
+
+Sieci bezprzewodowe opierają się na standardach w grupie:
+IEEE 802.11
+
+Sieci wi-fi uzywają dwóch zakresów pasm:
+2,4 GHz - większy zasięg / mniejsza prędkość
+5 GHz - mniejszy zasięg / większa prędkość
+
+Rodzina sieci bezprzewodowych obejmuje niezależne protokoły (B, A, G, M, AC, AX, BE)
+
+Prędkości uzyskiwane w poszczególnych sieciach telefonii komórkowej:
+2g - 15 Kb/s
+3g - 3,6 Mb/s
+4g - 100 Mb/s
+5g - 10 Gb/s
+
+Zabezpieczenia siecii bezprzewodowej:
+WPA - Wi-fi Proceted Access
+IPSEC - Ip Security
+
+Rodzaje sieci bezprzewodowych:
+
+WPA - Wireless Pesonal Area network
+Bluetooth
+WLAN
+WMAN
+WWAN
+
+Rodzaje połączeń pomiędzy nadawcą i odbiorcą
+gwiazdy kraty, ad-hoc
