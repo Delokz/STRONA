@@ -1,0 +1,14 @@
+Temat: Działania na liczbach binarnych
+a) Dodawanie
+0 + 0 = 0
+1 + 0 = 1
+0 + 1 = 1
+1 + 1 = 10
+
+Zamiana liczby z binarnej na dziesiętną, i później na odwrót | Dodwananie binarnych wg. zasad wyżej w słupku |
+
+b) Odejmowanie
+0 - 0 = 0
+1 - 0 = 1
+0 - 1 = 1
+1 - 1 = 0
